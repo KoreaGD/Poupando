@@ -21,7 +21,6 @@ const Modal = ({ meta, modalidade, tempo }, ref) => {
 
   if (!state) return null;
   const meta_ = (meta/tempo);
-  if(meta_!== NaN)
   return (
     <div className="modal">
       {modalidade === "mes" ? (

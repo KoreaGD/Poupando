@@ -8,7 +8,7 @@ import Modal from './Components/Modal/Modal';
 function App() {
   const [meta, setMeta] = useState('');
   const [tempo, setTempo] = useState('');
-  const [modalidade, setModalidade] = useState('mes')
+  const [modalidade, setModalidade] = useState('ano')
 
   const modalRef = useRef(null)
   const handleOpenModal = useCallback(() => {
