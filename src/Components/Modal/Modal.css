@@ -1,0 +1,38 @@
+.modal{
+  box-sizing: border-box;
+  min-width: 400;
+  min-height: 300;
+
+  width: 70vw;
+  height: 60vh;
+
+  max-width: 800;
+  max-height: 600;
+
+  background-color: #f7f7f7;
+
+  position: absolute;
+
+  left: 14vw;
+  top: 20vh;
+
+  display: flex;
+  flex-direction: column;
+
+
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #1c1d1f 20px 20px 20px;
+}
+
+.close {
+  border: none;
+  background-color: #67a776;
+  height: 4em;
+  width: 8em;
+  margin-bottom: 20px;
+}
+.modal >h1{
+  color: #1c1d1f;
+  font-size: 1.5em;
+}

@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  width: 10em;
+  color: #f7f7f7;
+  margin-top: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+span {
+  display: block;
+}
+.green {
+  color: #67a776;
+}

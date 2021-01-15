@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap');
+html, body {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #1c1d1f;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-section{
+  display: flex;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-Int {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+.gerarCalc{
+  border: none;
+  height: 4em;
+  width: 10em;
+  font-size: 20px;
+  background-color: #67a777;
+  border-radius: 2em 4em 2em 4em;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
 }

@@ -1,0 +1,29 @@
+.meta{
+  height: 2em;
+  border: none;
+  padding: 3vw 1vh;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 2em;
+}
+.tempo{
+  padding: 3vw 1vh;
+  border: none;
+}
+.modalidade{
+  padding: 3vw 1vh;
+  border: none;
+  background-color: white;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 4em;
+}
+.tempo,.meta{
+  text-align: center;
+}
+.modalidade:active{
+  border-bottom-right-radius: 0;
+}
+.modalidade,::-webkit-input-placeholder{
+  color: #1c1d1f;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
