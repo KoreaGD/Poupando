@@ -16,6 +16,7 @@ function App() {
       modalRef.current.handleOpenModal();
     }
     else alert('Por favor insira apenas números');
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
